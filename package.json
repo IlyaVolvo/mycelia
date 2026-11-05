@@ -1,0 +1,22 @@
+{
+  "name": "mycelia",
+  "version": "1.0.0",
+  "description": "Map-first mushroom places app",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:api": "npm --workspace @mycelia/api run dev",
+    "build:api": "npm --workspace @mycelia/api run build",
+    "start:api": "npm --workspace @mycelia/api run start"
+  },
+  "keywords": [
+    "maps",
+    "flutter",
+    "neon",
+    "fastify"
+  ],
+  "author": "",
+  "license": "UNLICENSED"
+}

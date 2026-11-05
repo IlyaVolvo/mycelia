@@ -1,0 +1,125 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build-api",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"apps/api",
+				"run",
+				"build"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "build-api",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"apps/api",
+				"run",
+				"build"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "verify-api",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"apps/api",
+				"run",
+				"typecheck",
+				"&&",
+				"npm",
+				"--prefix",
+				"apps/api",
+				"run",
+				"build",
+				"&&",
+				"npm",
+				"--prefix",
+				"apps/api",
+				"run",
+				"test:integration"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "verify-api",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"apps/api",
+				"run",
+				"typecheck",
+				"&&",
+				"npm",
+				"--prefix",
+				"apps/api",
+				"run",
+				"build",
+				"&&",
+				"npm",
+				"--prefix",
+				"apps/api",
+				"run",
+				"test:integration"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "verify-api",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"apps/api",
+				"run",
+				"typecheck",
+				"&&",
+				"npm",
+				"--prefix",
+				"apps/api",
+				"run",
+				"build",
+				"&&",
+				"npm",
+				"--prefix",
+				"apps/api",
+				"run",
+				"test:integration"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "verify-api",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"apps/api",
+				"run",
+				"typecheck",
+				"&&",
+				"npm",
+				"--prefix",
+				"apps/api",
+				"run",
+				"build",
+				"&&",
+				"npm",
+				"--prefix",
+				"apps/api",
+				"run",
+				"test:integration"
+			],
+			"isBackground": false
+		}
+	]
+}
