@@ -1,6 +1,12 @@
 # Mycelia
 
-Map-first mushroom places app using Flutter (client), Fastify (API), and Neon Postgres + PostGIS (database).
+Mycelia is a general-purpose platform for building map aware application around places sharing  common knowledge. It is designed for products that need to connect spatial information with taxonomy. 
+
+At its core, Mycelia makes it easy to classify places by domain-specific attributes, and expose the right results based on location, relevance, and user intent.
+
+The first concrete use case is a mushroom hunting location: a map-based guide for discovering spots where mushrooms are commonly found, organizing them by habitat, season, species cues, and terrain, and helping users share practical field knowledge. It could be used by a single prrson to mark places of discovery or shared among friends and publicly.
+
+This repository implements the backend foundation for that idea using Fastify, PostgreSQL with PostGIS, and a design pattern that can be reused for other place-based products.
 
 ## Repository Layout
 
